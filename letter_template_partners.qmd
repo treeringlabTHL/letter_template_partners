@@ -1,0 +1,35 @@
+---
+fromname: Daniel Balanzategui
+fromqualifications:
+fromtitle: Lab Director
+fromWWW: th-luebeck.de
+fromemail: daniel.balanzategui@TH-luebeck.de
+fromphone: +49 451 300 5030
+fromsignature: digital_signature.jpg
+toname: Helen of Troy
+toaddress:
+  - University of Greece
+  - Athens
+opening: "Dear Helen"
+closing: "Best wishes"
+spacing: 1.4
+
+format: letter-pdf
+---
+
+Insert content I Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dolor vitae tristique eleifend. Quisque non ipsum sit amet velit malesuada consectetur. Praesent vel facilisis leo. Sed facilisis varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla purus justo, congue eget enim a, elementum sollicitudin eros. Cras porta augue ligula, vel adipiscing odio ullamcorper eu. In tincidunt nisi sit amet tincidunt tincidunt. Maecenas elementum neque eget dolor [egestas fringilla](http://example.com):
+
+Insert content II Vestibulum id sodales lectus, sed scelerisque quam. Nullam auctor mi et feugiat commodo. Duis interdum imperdiet nulla, vitae bibendum eros placerat non. Cras ornare, risus in faucibus malesuada, libero sem fringilla quam, ut luctus enim sapien eget dolor.
+
+```{r}
+library(ggplot2)
+#| label: load-packages
+#| echo: false
+
+#| label: scatterplot
+
+ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c() +
+  theme_minimal()
+```

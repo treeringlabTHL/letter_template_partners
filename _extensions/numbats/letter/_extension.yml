@@ -1,0 +1,8 @@
+title: Eckstein Tree-Ring Lab Letter Format Template
+author: Daniel Balanzategui
+version: 0.1.0
+contributes:
+  formats:
+    pdf:
+      template: luebeckletter_partners.tex
+      pdf-engine: pdflatex
